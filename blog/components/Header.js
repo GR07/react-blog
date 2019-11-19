@@ -1,4 +1,3 @@
-import React from 'react'
 import '../public/style/components/header.css'
 
 import {Row, Col, Menu, Icon} from 'antd' // 24栅格布局
@@ -6,7 +5,7 @@ import {Row, Col, Menu, Icon} from 'antd' // 24栅格布局
 const Header = () => (
   <div className="header">
     <Row type="flex" justify="center">
-      <Col xs={24} sm={24} md={10} lg={10} xl={10}>
+      <Col xs={24} sm={24} md={10} lg={15} xl={12}>
         <span className="header-logo">GR07</span>
         <span className="header-txt">设计转前端的菜鸟 github.com/GR07</span>
       </Col>
